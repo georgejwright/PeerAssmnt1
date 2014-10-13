@@ -1,0 +1,40 @@
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+```{r, echo=TRUE}
+myPA_data <- read.csv("activity.csv")
+```
+
+Here is some data:
+
+```{r}
+head(myPA_data)
+tail(myPA_data)
+```
+
+You can also embed plots, for example:
+
+``` {r}
+pairs(myPA_data)
+```
+\
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
